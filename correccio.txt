@@ -1,0 +1,19 @@
+Ex1: Com a mínim dos blocs de codi estan fets amb IA. 3/5
+     def durada_total(self):
+        total = sum(s.durada for s in self.song_list) ------------->
+        return total
+i
+      def canco_mes_llarga(self):
+        if not self.song_list:--------------------------->
+            return None
+   
+        mes_llarga = max(self.song_list, key=lambda s: s.durada)------------>
+        return mes_llarga.info()
+
+
+Ex2: 3/5
+També hi ha IA.
+    def esta_viu(self):
+        return self.vida > 0------------------------->
+
+Nota final: 6/10
